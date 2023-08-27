@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" >
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <title>Tienda de Ropa</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body {
+      font-family: 'Playfair Display SC', serif;
+      margin: 0;
+      padding: 0;
+    }
+    .mi-elemento {
+      font-family: 'Tektur', cursive;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="img/logo3 (1).png">
+    </a>
+  </div>
+    <div class="search-bar">
+        <input class="search-input" autocomplete="off" type="search" name="q" placeholder="¿Qué estás buscando?" aria-label="¿Qué estás buscando?">
+        <button type="submit" class="search-submit">
+          <svg class="icon-inline icon-2x" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.5 32"><path d="M30.77,27.73l-8-8a12.57,12.57,0,1,0-3.64,3.43l8.15,8.16a2.51,2.51,0,0,0,3.54,0A2.52,2.52,0,0,0,30.77,27.73ZM5,12.5A7.5,7.5,0,1,1,12.5,20,7.5,7.5,0,0,1,5,12.5Z"></path></svg>
+        </button>
+      </div>
+   </header>
+  <nav class="nav">
+    <ul>
+      <li><a href="pages/contacto.html">Contacto</a></li>
+      <li><a href="pages/preguntasFrecuentes.html">Preguntas frecuentes</a></li>
+      <li><a href="pages/politicayDevolucion.html">Política de devolución</a></li>
+    </ul>
+  </nav>
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/imagen1.webp" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="img/Abrigos.png" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="img/Pantalones.png" class="d-block w-100" alt="">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <main>
+        <h1>Bienvenido a nuestra tienda de ropa</h1>
+        <h2>Productos Destacados</h2>
+        <div class="categorias">
+          <div class="categoria">
+            <a href="pages/pantalones.html">
+              <img src="img/Pantalones.png" alt="Pantalones">
+            </a>
+          </div>
+          <div class="categoria">
+            <a href="pages/remeras.html">
+              <img src="img/Remeras.png" alt="Remeras" >
+            </a>
+          </div>
+          <div class="categoria">
+            <a href="pages/abrigos.html">
+              <img src="img/Abrigos.png" alt="Abrigos">
+            </a>
+          </div>
+          <div class="categoria">
+            <a href="pages/accesorios.html">
+              <img src="img/Accesorios.png" alt="Accesorios">
+            </a>
+          </div>
+        </div>
+  </main>
+
+  <footer>
+    <ul>
+     <h2>Categorías</h2> 
+      <li ><a href="#">Productos</a></li>
+      <li><a href="#">Contacto</a></li>
+      <li><a href="#">¿Cómo compro?</a></li>
+      <li><a href="#">Preguntas Frecuentes</a></li>
+      <li><a href="#">Política de Devolución</a></li>
+      <li>Contactános</li>
+    </ul>
+    <p>&copy; 2023 Tienda de Ropa. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+
+</html>
